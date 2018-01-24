@@ -15,6 +15,7 @@
 		75F6FB84201818F90014035E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FB82201818F90014035E /* LaunchScreen.storyboard */; };
 		75F6FB8F201818F90014035E /* YYSceneKitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB8E201818F90014035E /* YYSceneKitTestTests.swift */; };
 		75F6FB9A201818F90014035E /* YYSceneKitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB99201818F90014035E /* YYSceneKitTestUITests.swift */; };
+		75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBA920181AB60014035E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		75F6FB95201818F90014035E /* YYSceneKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYSceneKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F6FB99201818F90014035E /* YYSceneKitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYSceneKitTestUITests.swift; sourceTree = "<group>"; };
 		75F6FB9B201818F90014035E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F6FBA920181AB60014035E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +81,10 @@
 		75F6FB6B201818F90014035E = {
 			isa = PBXGroup;
 			children = (
+				75F6FB75201818F90014035E /* Products */,
 				75F6FB76201818F90014035E /* YYSceneKitTest */,
 				75F6FB8D201818F90014035E /* YYSceneKitTestTests */,
 				75F6FB98201818F90014035E /* YYSceneKitTestUITests */,
-				75F6FB75201818F90014035E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +101,14 @@
 		75F6FB76201818F90014035E /* YYSceneKitTest */ = {
 			isa = PBXGroup;
 			children = (
-				75F6FB77201818F90014035E /* AppDelegate.swift */,
+				75F6FB85201818F90014035E /* Info.plist */,
 				75F6FB79201818F90014035E /* art.scnassets */,
+				75F6FB77201818F90014035E /* AppDelegate.swift */,
+				75F6FBA920181AB60014035E /* MainViewController.swift */,
 				75F6FB7B201818F90014035E /* ViewController.swift */,
-				75F6FB7D201818F90014035E /* Main.storyboard */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
 				75F6FB82201818F90014035E /* LaunchScreen.storyboard */,
-				75F6FB85201818F90014035E /* Info.plist */,
+				75F6FB7D201818F90014035E /* Main.storyboard */,
 			);
 			path = YYSceneKitTest;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
 				75F6FB7C201818F90014035E /* ViewController.swift in Sources */,
 				75F6FB78201818F90014035E /* AppDelegate.swift in Sources */,
 			);
