@@ -119,5 +119,29 @@
             </objects>
             <point key="canvasLocation" x="341.60000000000002" y="789.35532233883066"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="fDe-PP-5r3">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="pIJ-1x-qhj" customClass="ViewController2" customModule="YYSceneKitTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dO7-c7-qqj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FKl-ss-oFC">
+                                <rect key="frame" x="35" y="128" width="324" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="myg-nm-94B"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="FKl-ss-oFC" id="fkG-kP-mWe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ceW-5e-FFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349.60000000000002" y="1458.6206896551726"/>
+        </scene>
     </scenes>
 </document>
