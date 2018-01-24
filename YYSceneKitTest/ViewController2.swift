@@ -28,6 +28,7 @@ class ViewController2: UIViewController {
         gameView = scnview
     }
     
+    // 关于数字的单位，看这里 http://developer.huawei.com/ict/forum/thread-23511-1-1.html
     private func createScene(){
         let sphere = SCNSphere.init(radius: 0.5)
         let node = SCNNode()
@@ -38,7 +39,7 @@ class ViewController2: UIViewController {
         node.geometry = sphere
         
         let childNode = SCNNode()
-        childNode.position = SCNVector3Make(0, 0, 1)
+        childNode.position = SCNVector3Make(-0.5, 0, 1)
         
         let text = SCNText.init(string: "成都带不走的只有你", extrusionDepth: 0.03)
         text.firstMaterial?.diffuse.contents = UIColor.yellow
