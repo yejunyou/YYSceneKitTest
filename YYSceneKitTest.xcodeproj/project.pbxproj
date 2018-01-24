@@ -21,6 +21,8 @@
 		75F6FBB2201860F60014035E /* ViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB1201860F60014035E /* ViewController01.m */; };
 		75F6FBB52018628F0014035E /* yizi.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FBB42018628F0014035E /* yizi.DAE */; };
 		75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB6201874BD0014035E /* ViewController3.swift */; };
+		75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB820187EDA0014035E /* ViewController4.swift */; };
+		75F6FBBD201892A10014035E /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBBC201892A10014035E /* ViewController5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		75F6FBB1201860F60014035E /* ViewController01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController01.m; sourceTree = "<group>"; };
 		75F6FBB42018628F0014035E /* yizi.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = yizi.DAE; sourceTree = "<group>"; };
 		75F6FBB6201874BD0014035E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		75F6FBB820187EDA0014035E /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		75F6FBBC201892A10014035E /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				75F6FBB1201860F60014035E /* ViewController01.m */,
 				75F6FBAD20181E350014035E /* ViewController2.swift */,
 				75F6FBB6201874BD0014035E /* ViewController3.swift */,
+				75F6FBB820187EDA0014035E /* ViewController4.swift */,
+				75F6FBBC201892A10014035E /* ViewController5.swift */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
 				75F6FB82201818F90014035E /* LaunchScreen.storyboard */,
 				75F6FB7D201818F90014035E /* Main.storyboard */,
@@ -298,6 +304,8 @@
 				75F6FBAE20181E350014035E /* ViewController2.swift in Sources */,
 				75F6FBB2201860F60014035E /* ViewController01.m in Sources */,
 				75F6FBAC20181E2C0014035E /* ViewController1.swift in Sources */,
+				75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */,
+				75F6FBBD201892A10014035E /* ViewController5.swift in Sources */,
 				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
 				75F6FB7C201818F90014035E /* ViewController.swift in Sources */,
 				75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */,

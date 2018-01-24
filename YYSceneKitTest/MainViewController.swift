@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
-    let dataList = ["灰机✈️", "加载Dea-椅子", "3D文字", "光与影"]
+    let dataList = ["灰机✈️", "加载Dea-椅子", "3D文字", "光与影", "相机视角","动画群组"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -48,7 +48,8 @@ class MainViewController: UITableViewController {
             case 1:vcName = "ViewController01"
             case 2:vcName = "ViewController2"
             case 3:vcName = "ViewController3"
-            case 4:vcName = "SolorSystemOCViewController"
+            case 4:vcName = "ViewController4"
+            case 5:vcName = "ViewController5"
             default:vcName = "ViewController"
         }
         

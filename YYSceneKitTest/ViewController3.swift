@@ -55,12 +55,12 @@ class ViewController3: UIViewController {
         light.type = .spot
         light.color = UIColor.blue
         light.castsShadow = true // 捕捉阴影
-//        light.spotOuterAngle = 2 // 默认45°
-        light.spotInnerAngle = -2
+        light.spotOuterAngle = 2 // 默认45°
+//        light.spotInnerAngle = -2
         
         light.zFar = 10 // 设置它最远能照射单位10 的地方,也就是说只能照到 球体的位置
         let lightNode = SCNNode()
-        lightNode.position = SCNVector3Make(0, 0, 0)
+        lightNode.position = SCNVector3Make(0, 0, 0)  // 设置光源节点的位置
         lightNode.light = light
         gameView.scene?.rootNode.addChildNode(lightNode)
         
