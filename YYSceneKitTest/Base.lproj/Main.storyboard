@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -69,6 +70,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="319" y="63"/>
+        </scene>
+        <!--View Controller01-->
+        <scene sceneID="3Pf-j5-Z1e">
+            <objects>
+                <viewController storyboardIdentifier="ViewController01" id="6J1-e9-wXV" customClass="ViewController01" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BWo-dn-VWf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-KZ-8uW">
+                                <rect key="frame" x="16" y="120" width="306" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Vgg-fC-Jf7"/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="bBh-KZ-8uW" id="XNB-PT-NHq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5d-ac-Lea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-421.60000000000002" y="784.85757121439292"/>
+        </scene>
+        <!--View Controller1-->
+        <scene sceneID="Kcv-Ua-7k5">
+            <objects>
+                <viewController storyboardIdentifier="ViewController1" id="QwU-iw-pdM" customClass="ViewController1" customModule="YYSceneKitTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adW-YG-PIn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O7p-8u-tB7">
+                                <rect key="frame" x="67" y="133" width="254" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Cb3-Kg-vcf"/>
+                    </view>
+                    <connections>
+                        <outlet property="myView" destination="O7p-8u-tB7" id="Ehp-hK-rXu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7F-S2-b8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="341.60000000000002" y="789.35532233883066"/>
         </scene>
     </scenes>
 </document>

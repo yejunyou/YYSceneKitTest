@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
-    let dataList = ["灰机✈️"]
+    let dataList = ["灰机✈️", "加载Dea-椅子"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -44,12 +44,12 @@ class MainViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vcName:String?
         switch indexPath.row {
-        case 0:vcName = "ViewController"
-        case 1:vcName = "PlaneDetectionViewController"
-        case 2:vcName = "EarthSystemViewController"
-        case 3:vcName = "SolrSystemViewController"
-        case 4:vcName = "SolorSystemOCViewController"
-        default:vcName = "ViewController"
+            case 0:vcName = "ViewController"
+            case 1:vcName = "ViewController01"
+            case 2:vcName = "ViewController2"
+            case 3:vcName = "SolrSystemViewController"
+            case 4:vcName = "SolorSystemOCViewController"
+            default:vcName = "ViewController"
         }
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
