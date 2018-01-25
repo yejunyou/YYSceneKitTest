@@ -23,6 +23,7 @@
 		75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB6201874BD0014035E /* ViewController3.swift */; };
 		75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB820187EDA0014035E /* ViewController4.swift */; };
 		75F6FBBD201892A10014035E /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBBC201892A10014035E /* ViewController5.swift */; };
+		75F6FBBF2018B9020014035E /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBBE2018B9020014035E /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		75F6FBB6201874BD0014035E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		75F6FBB820187EDA0014035E /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		75F6FBBC201892A10014035E /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		75F6FBBE2018B9020014035E /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				75F6FBB6201874BD0014035E /* ViewController3.swift */,
 				75F6FBB820187EDA0014035E /* ViewController4.swift */,
 				75F6FBBC201892A10014035E /* ViewController5.swift */,
+				75F6FBBE2018B9020014035E /* ViewController6.swift */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
 				75F6FB82201818F90014035E /* LaunchScreen.storyboard */,
 				75F6FB7D201818F90014035E /* Main.storyboard */,
@@ -304,6 +307,7 @@
 				75F6FBAE20181E350014035E /* ViewController2.swift in Sources */,
 				75F6FBB2201860F60014035E /* ViewController01.m in Sources */,
 				75F6FBAC20181E2C0014035E /* ViewController1.swift in Sources */,
+				75F6FBBF2018B9020014035E /* ViewController6.swift in Sources */,
 				75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */,
 				75F6FBBD201892A10014035E /* ViewController5.swift in Sources */,
 				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
