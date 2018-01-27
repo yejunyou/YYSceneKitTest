@@ -16,15 +16,12 @@ class ViewController1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.path(forResource: "yizi", ofType: "DAE", inDirectory: "/Users/yejunyou/Desktop/YYSceneKitTest/YYSceneKitTest/art.scnassets")
-        let url = URL.init(fileURLWithPath: path!)
+        // 【yizi.DAE】被我搞坏啦==|
+        let scene = SCNScene(named: "art.scnassets/yizi2.DAE")!
         
-        do{
-            let scene = try SCNScene.init(url: url, options: nil)
-            myView.allowsCameraControl = true
-            myView.scene = scene
-        }catch{
-            print("error")
-        }
+        // Set the scene to the view
+        myView.scene = scene
+        myView.allowsCameraControl = true
+        myView.backgroundColor = UIColor.black
     }
 }

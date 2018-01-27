@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7550579520196F7200086EC5 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550579420196F7100086EC5 /* ViewController7.swift */; };
 		75F6FB78201818F90014035E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB77201818F90014035E /* AppDelegate.swift */; };
 		75F6FB7A201818F90014035E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FB79201818F90014035E /* art.scnassets */; };
 		75F6FB7C201818F90014035E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB7B201818F90014035E /* ViewController.swift */; };
@@ -18,7 +19,6 @@
 		75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBA920181AB60014035E /* MainViewController.swift */; };
 		75F6FBAC20181E2C0014035E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBAB20181E2C0014035E /* ViewController1.swift */; };
 		75F6FBAE20181E350014035E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBAD20181E350014035E /* ViewController2.swift */; };
-		75F6FBB2201860F60014035E /* ViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB1201860F60014035E /* ViewController01.m */; };
 		75F6FBB52018628F0014035E /* yizi.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FBB42018628F0014035E /* yizi.DAE */; };
 		75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB6201874BD0014035E /* ViewController3.swift */; };
 		75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FBB820187EDA0014035E /* ViewController4.swift */; };
@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7550579420196F7100086EC5 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		75F6FB74201818F90014035E /* YYSceneKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYSceneKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F6FB77201818F90014035E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F6FB79201818F90014035E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -62,8 +63,6 @@
 		75F6FBAB20181E2C0014035E /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		75F6FBAD20181E350014035E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		75F6FBAF201860F60014035E /* YYSceneKitTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYSceneKitTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		75F6FBB0201860F60014035E /* ViewController01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController01.h; sourceTree = "<group>"; };
-		75F6FBB1201860F60014035E /* ViewController01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController01.m; sourceTree = "<group>"; };
 		75F6FBB42018628F0014035E /* yizi.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = yizi.DAE; sourceTree = "<group>"; };
 		75F6FBB6201874BD0014035E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		75F6FBB820187EDA0014035E /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
@@ -126,13 +125,12 @@
 				75F6FBA920181AB60014035E /* MainViewController.swift */,
 				75F6FB7B201818F90014035E /* ViewController.swift */,
 				75F6FBAB20181E2C0014035E /* ViewController1.swift */,
-				75F6FBB0201860F60014035E /* ViewController01.h */,
-				75F6FBB1201860F60014035E /* ViewController01.m */,
 				75F6FBAD20181E350014035E /* ViewController2.swift */,
 				75F6FBB6201874BD0014035E /* ViewController3.swift */,
 				75F6FBB820187EDA0014035E /* ViewController4.swift */,
 				75F6FBBC201892A10014035E /* ViewController5.swift */,
 				75F6FBBE2018B9020014035E /* ViewController6.swift */,
+				7550579420196F7100086EC5 /* ViewController7.swift */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
 				75F6FB82201818F90014035E /* LaunchScreen.storyboard */,
 				75F6FB7D201818F90014035E /* Main.storyboard */,
@@ -305,12 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F6FBAE20181E350014035E /* ViewController2.swift in Sources */,
-				75F6FBB2201860F60014035E /* ViewController01.m in Sources */,
 				75F6FBAC20181E2C0014035E /* ViewController1.swift in Sources */,
 				75F6FBBF2018B9020014035E /* ViewController6.swift in Sources */,
 				75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */,
 				75F6FBBD201892A10014035E /* ViewController5.swift in Sources */,
 				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
+				7550579520196F7200086EC5 /* ViewController7.swift in Sources */,
 				75F6FB7C201818F90014035E /* ViewController.swift in Sources */,
 				75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */,
 				75F6FB78201818F90014035E /* AppDelegate.swift in Sources */,

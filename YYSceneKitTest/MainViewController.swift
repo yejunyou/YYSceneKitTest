@@ -10,10 +10,11 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
-    let dataList = ["灰机✈️", "加载Dea-椅子", "3D文字", "光与影", "相机视角","动画群组","base geometry type"]
+    let dataList = ["灰机✈️", "加载Dea-椅子", "3D文字", "光与影", "相机视角","动画群组","base geometry type","light的属性运用"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.separatorColor = UIColor.clear
     }
 
     
@@ -35,6 +36,7 @@ class MainViewController: UITableViewController {
         {
             cell = UITableViewCell(style:UITableViewCellStyle.default, reuseIdentifier: identify)
             cell?.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+            cell?.selectionStyle = .none
         }
         cell?.textLabel?.text = dataList[indexPath.row]
         return cell!
@@ -45,12 +47,13 @@ class MainViewController: UITableViewController {
         let vcName:String?
         switch indexPath.row {
             case 0:vcName = "ViewController"
-            case 1:vcName = "ViewController01"
+            case 1:vcName = "ViewController1"
             case 2:vcName = "ViewController2"
             case 3:vcName = "ViewController3"
             case 4:vcName = "ViewController4"
             case 5:vcName = "ViewController5"
             case 6:vcName = "ViewController6"
+            case 7:vcName = "ViewController7"
             default:vcName = "ViewController"
         }
         

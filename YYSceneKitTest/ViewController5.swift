@@ -29,14 +29,14 @@ class ViewController5: UIViewController {
         scnView.scene?.rootNode.addChildNode(cameraNode)
         
         let box = SCNBox.init(width: 10, height: 10, length: 10, chamferRadius: 0)
-        box.firstMaterial?.diffuse.contents = UIImage.init(named: "1")
+        box.firstMaterial?.diffuse.contents = UIImage.init(named: "123")
         let boxNode = SCNNode()
         boxNode.position = SCNVector3Make(0, 0, 0)
         boxNode.geometry = box
         scnView.scene?.rootNode.addChildNode(boxNode)
         
         // 添加动画行为
-        let rotation = SCNAction.rotate(by: 10, around: SCNVector3Make(0, 1, 0), duration: 2)
+        let rotation = SCNAction.rotate(by: 5, around: SCNVector3Make(0, 1, 0), duration: 2)
         let moveUp = SCNAction.move(to: SCNVector3Make(0, 15, 0), duration: 1)
         let moveDown = SCNAction.move(to: SCNVector3Make(0, -15, 0), duration: 1)
         

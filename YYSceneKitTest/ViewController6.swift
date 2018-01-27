@@ -71,7 +71,7 @@ class ViewController6: UIViewController {
         createGeometryNode(floor, SCNVector3Make(0, -0.5, 0), img: "1")
         
         // 11.文字
-        let text = SCNText.init(string: "庄子游天下", extrusionDepth: 1)
+        let text = SCNText.init(string: "庄子游天下", extrusionDepth: 0.3)
         createGeometryNode(text, SCNVector3Make(-4, 0.5, 0), img: "1")
         
         // 设置文字被包裹
@@ -98,4 +98,3 @@ class ViewController6: UIViewController {
         mySceneView?.scene?.rootNode.addChildNode(node)
     }
 }
-
