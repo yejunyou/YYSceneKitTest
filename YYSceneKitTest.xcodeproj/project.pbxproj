@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		754B5477201D702500369E5E /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B5476201D702500369E5E /* ViewController7.swift */; };
 		754B5479201D8D1200369E5E /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B5478201D8D1200369E5E /* ViewController8.swift */; };
+		75E20096201E00D50058FDE0 /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E20095201E00D50058FDE0 /* ViewController9.swift */; };
+		75E20099201E01730058FDE0 /* Fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 75E20097201E01730058FDE0 /* Fire.scnp */; };
+		75E2009A201E01730058FDE0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E20098201E01730058FDE0 /* spark.png */; };
 		75F6FB78201818F90014035E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB77201818F90014035E /* AppDelegate.swift */; };
 		75F6FB7A201818F90014035E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FB79201818F90014035E /* art.scnassets */; };
 		75F6FB7C201818F90014035E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB7B201818F90014035E /* ViewController.swift */; };
@@ -47,6 +50,9 @@
 /* Begin PBXFileReference section */
 		754B5476201D702500369E5E /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		754B5478201D8D1200369E5E /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		75E20095201E00D50058FDE0 /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		75E20097201E01730058FDE0 /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
+		75E20098201E01730058FDE0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		75F6FB74201818F90014035E /* YYSceneKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYSceneKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F6FB77201818F90014035E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F6FB79201818F90014035E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -134,6 +140,9 @@
 				75F6FBBE2018B9020014035E /* ViewController6.swift */,
 				754B5476201D702500369E5E /* ViewController7.swift */,
 				754B5478201D8D1200369E5E /* ViewController8.swift */,
+				75E20095201E00D50058FDE0 /* ViewController9.swift */,
+				75E20097201E01730058FDE0 /* Fire.scnp */,
+				75E20098201E01730058FDE0 /* spark.png */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
 				75F6FB82201818F90014035E /* LaunchScreen.storyboard */,
 				75F6FB7D201818F90014035E /* Main.storyboard */,
@@ -277,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F6FB7A201818F90014035E /* art.scnassets in Resources */,
+				75E20099201E01730058FDE0 /* Fire.scnp in Resources */,
 				75F6FBB52018628F0014035E /* yizi.DAE in Resources */,
+				75E2009A201E01730058FDE0 /* spark.png in Resources */,
 				75F6FB84201818F90014035E /* LaunchScreen.storyboard in Resources */,
 				75F6FB81201818F90014035E /* Assets.xcassets in Resources */,
 				75F6FB7F201818F90014035E /* Main.storyboard in Resources */,
@@ -313,6 +324,7 @@
 				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
 				75F6FB7C201818F90014035E /* ViewController.swift in Sources */,
 				75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */,
+				75E20096201E00D50058FDE0 /* ViewController9.swift in Sources */,
 				754B5477201D702500369E5E /* ViewController7.swift in Sources */,
 				754B5479201D8D1200369E5E /* ViewController8.swift in Sources */,
 				75F6FB78201818F90014035E /* AppDelegate.swift in Sources */,

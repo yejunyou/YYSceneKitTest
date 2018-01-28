@@ -104,8 +104,8 @@ class ViewController7: UIViewController {
     private func addBoxAndSphere(){
         let sphere = SCNSphere.init(radius: 2)
         sphere.firstMaterial?.locksAmbientWithDiffuse = true
-        sphere.firstMaterial?.diffuse.contents = "art.scnassets/earth/earth-diffuse.jpg"//UIImage.init(named: "earth-diffuse.jpg")
-        sphere.firstMaterial?.ambient.contents = "art.scnassets/earth/earth-bump.png"//UIImage.init(named: "earth-bump.png")
+        sphere.firstMaterial?.diffuse.contents = "earth-diffuse.jpg"//UIImage.init(named: "earth-diffuse.jpg")
+        sphere.firstMaterial?.ambient.contents = "earth-bump.png"//UIImage.init(named: "earth-bump.png")
         let sphereNode = SCNNode.init(geometry: sphere)
         myView.scene?.rootNode.addChildNode(sphereNode)
     }

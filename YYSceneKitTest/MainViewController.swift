@@ -19,6 +19,7 @@ class MainViewController: UITableViewController {
                     "base geometry type",
                     "light的属性运用",
                     "物理身体",
+                    "粒子系统"
                     ]
     
     override func viewDidLoad() {
@@ -65,6 +66,11 @@ class MainViewController: UITableViewController {
             case 6:vcName = "ViewController6"
             case 7:vcName = "ViewController7"
             case 8:vcName = "ViewController8"
+            case 9:vcName = "ViewController9"
+            case 10:vcName = "ViewController10"
+            case 11:vcName = "ViewController11"
+            case 12:vcName = "ViewController12"
+            case 13:vcName = "ViewController13"
             default:vcName = "ViewController"
         }
         
