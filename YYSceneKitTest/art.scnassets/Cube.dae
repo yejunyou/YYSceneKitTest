@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+ <asset>
+   // BEGIN__HARVEST_EXCEPTION_ZSTRING 
+    <title>"$$$/Preset/3DFrom2D/Cube=Cube"</title> 
+// END__HARVEST_EXCEPTION_ZSTRING 
+    <contributor>
+      <author>Daniel Presedo for Photoshop 3D</author> 
+    </contributor>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+     <material id="Right_Material" name="Right_Material">
+      <instance_effect url="#Right_Material-fx"/>
+    </material>
+	<material id="Top_Material" name="Top_Material">
+      <instance_effect url="#Top_Material-fx"/>
+    </material>
+    <material id="Bottom_Material" name="Bottom_Material">
+      <instance_effect url="#Bottom_Material-fx"/>
+    </material>
+    <material id="Front_Material" name="Front_Material">
+      <instance_effect url="#Front_Material-fx"/>
+    </material>
+    <material id="Back_Material" name="Back_Material">
+      <instance_effect url="#Back_Material-fx"/>
+    </material>
+    <material id="Left_Material" name="Left_Material">
+      <instance_effect url="#Left_Material-fx"/>
+    </material>
+    </library_materials>
+  <library_effects>
+    <effect id="Top_Material-fx" name="Top_Material">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.827451 0.827451 0.827451 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.827451 0.827451 0.827451 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Bottom_Material-fx" name="Bottom_Material">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.984314 0.65098 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.984314 0.65098 0.588235 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Front_Material-fx" name="Front_Material">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.658824 0.588235 0.929412 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.658824 0.588235 0.929412 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Back_Material-fx" name="Back_Material">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.866667 0.588235 0.905882 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.866667 0.588235 0.905882 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Left_Material-fx" name="Left_Material">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.945098 0.94902 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.945098 0.94902 0.588235 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Right_Material-fx" name="Right_Material">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588235 0.980392 0.682353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.588235 0.980392 0.682353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Left-lib" name="Left">
+      <mesh>
+        <source id="Left-lib-positions">
+          <float_array id="Left-lib-positions-array" count="12">0.5 0 -0.5 0.5 0 0.5 0.5 -1 -0.5 0.5 -1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-normals">
+          <float_array id="Left-lib-normals-array" count="12">1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-map-channel1">
+          <float_array id="Left-lib-map-channel1-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-map-channel2">
+          <float_array id="Left-lib-map-channel2-array" count="12">0.0005 0.0005 0 0.9995 0.0005 0 0.0005 0.9995 0 0.9995 0.9995 0</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-map-channel1-tangents">
+          <float_array id="Left-lib-map-channel1-tangents-array" count="3">0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-map-channel1-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-map-channel1-binormals">
+          <float_array id="Left-lib-map-channel1-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-map-channel1-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-map-channel2-tangents">
+          <float_array id="Left-lib-map-channel2-tangents-array" count="3">0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-map-channel2-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left-lib-map-channel2-binormals">
+          <float_array id="Left-lib-map-channel2-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left-lib-map-channel2-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Left-lib-vertices">
+          <input semantic="POSITION" source="#Left-lib-positions"/>
+        </vertices>
+        <triangles material="Left_Material" count="2">
+          <input semantic="VERTEX" source="#Left-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Left-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Left-lib-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#Left-lib-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXTANGENT" source="#Left-lib-map-channel1-tangents" offset="4" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Left-lib-map-channel1-binormals" offset="5" set="1"/>
+          <input semantic="TEXTANGENT" source="#Left-lib-map-channel2-tangents" offset="6" set="2"/>
+          <input semantic="TEXBINORMAL" source="#Left-lib-map-channel2-binormals" offset="7" set="2"/>
+          <p>0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 3 2 3 3 0 0 0 0 3 2 3 3 0 0 0 0 2 3 2 2 0 0 0 0 0 0 0 0 0 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Right-lib" name="Right">
+      <mesh>
+        <source id="Right-lib-positions">
+          <float_array id="Right-lib-positions-array" count="12">-0.5 0 -0.5 -0.5 0 0.5 -0.5 -1 -0.5 -0.5 -1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-normals">
+          <float_array id="Right-lib-normals-array" count="12">-1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-map-channel1">
+          <float_array id="Right-lib-map-channel1-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-map-channel2">
+          <float_array id="Right-lib-map-channel2-array" count="12">0.999501 0.000499 0 0.0005 0.000499 0 0.999501 0.999501 0 0.0005 0.999501 0</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-map-channel1-tangents">
+          <float_array id="Right-lib-map-channel1-tangents-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-map-channel1-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-map-channel1-binormals">
+          <float_array id="Right-lib-map-channel1-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-map-channel1-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-map-channel2-tangents">
+          <float_array id="Right-lib-map-channel2-tangents-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-map-channel2-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Right-lib-map-channel2-binormals">
+          <float_array id="Right-lib-map-channel2-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Right-lib-map-channel2-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Right-lib-vertices">
+          <input semantic="POSITION" source="#Right-lib-positions"/>
+        </vertices>
+        <triangles material="Right_Material" count="2">
+          <input semantic="VERTEX" source="#Right-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Right-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Right-lib-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#Right-lib-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXTANGENT" source="#Right-lib-map-channel1-tangents" offset="4" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Right-lib-map-channel1-binormals" offset="5" set="1"/>
+          <input semantic="TEXTANGENT" source="#Right-lib-map-channel2-tangents" offset="6" set="2"/>
+          <input semantic="TEXBINORMAL" source="#Right-lib-map-channel2-binormals" offset="7" set="2"/>
+          <p>1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 2 2 3 2 0 0 0 0 2 2 3 2 0 0 0 0 3 3 2 3 0 0 0 0 1 0 0 1 0 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Bottom-lib" name="Bottom">
+      <mesh>
+        <source id="Bottom-lib-positions">
+          <float_array id="Bottom-lib-positions-array" count="12">-0.5 0 -0.5 0.5 0 -0.5 -0.5 -1 -0.5 0.5 -1 -0.5</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-normals">
+          <float_array id="Bottom-lib-normals-array" count="12">0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-map-channel1">
+          <float_array id="Bottom-lib-map-channel1-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-map-channel2">
+          <float_array id="Bottom-lib-map-channel2-array" count="12">0.0005 0.000499 0 0.999501 0.000499 0 0.0005 0.999501 0 0.999501 0.999501 0</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-map-channel1-tangents">
+          <float_array id="Bottom-lib-map-channel1-tangents-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-map-channel1-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-map-channel1-binormals">
+          <float_array id="Bottom-lib-map-channel1-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-map-channel1-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-map-channel2-tangents">
+          <float_array id="Bottom-lib-map-channel2-tangents-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-map-channel2-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bottom-lib-map-channel2-binormals">
+          <float_array id="Bottom-lib-map-channel2-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Bottom-lib-map-channel2-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Bottom-lib-vertices">
+          <input semantic="POSITION" source="#Bottom-lib-positions"/>
+        </vertices>
+        <triangles material="Bottom_Material" count="2">
+          <input semantic="VERTEX" source="#Bottom-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Bottom-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Bottom-lib-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#Bottom-lib-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXTANGENT" source="#Bottom-lib-map-channel1-tangents" offset="4" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Bottom-lib-map-channel1-binormals" offset="5" set="1"/>
+          <input semantic="TEXTANGENT" source="#Bottom-lib-map-channel2-tangents" offset="6" set="2"/>
+          <input semantic="TEXBINORMAL" source="#Bottom-lib-map-channel2-binormals" offset="7" set="2"/>
+          <p>0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 3 2 3 3 0 0 0 0 3 2 3 3 0 0 0 0 2 3 2 2 0 0 0 0 0 0 0 0 0 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Top-lib" name="Top">
+      <mesh>
+        <source id="Top-lib-positions">
+          <float_array id="Top-lib-positions-array" count="12">-0.5 0 0.5 0.5 0 0.5 -0.5 -1 0.5 0.5 -1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Top-lib-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Top-lib-normals">
+          <float_array id="Top-lib-normals-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Top-lib-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Top-lib-map-channel1">
+          <float_array id="Top-lib-map-channel1-array" count="12">0.999501 0.000499 0 0.0005 0.000499 0 0.999501 0.999501 0 0.0005 0.999501 0</float_array>
+          <technique_common>
+            <accessor source="#Top-lib-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Top-lib-map-channel1-tangents">
+          <float_array id="Top-lib-map-channel1-tangents-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Top-lib-map-channel1-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Top-lib-map-channel1-binormals">
+          <float_array id="Top-lib-map-channel1-binormals-array" count="3">0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Top-lib-map-channel1-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Top-lib-vertices">
+          <input semantic="POSITION" source="#Top-lib-positions"/>
+        </vertices>
+        <triangles material="Top_Material" count="2">
+          <input semantic="VERTEX" source="#Top-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Top-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Top-lib-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXTANGENT" source="#Top-lib-map-channel1-tangents" offset="3" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Top-lib-map-channel1-binormals" offset="4" set="1"/>
+          <p>1 0 1 0 0 0 1 0 0 0 2 2 2 0 0 2 2 2 0 0 3 3 3 0 0 1 0 1 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Front-lib" name="Front">
+      <mesh>
+        <source id="Front-lib-positions">
+          <float_array id="Front-lib-positions-array" count="12">-0.5 0 -0.5 0.5 0 -0.5 -0.5 0 0.5 0.5 0 0.5</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-normals">
+          <float_array id="Front-lib-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-map-channel1">
+          <float_array id="Front-lib-map-channel1-array" count="12">1 0 0 0 0 0 1 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-map-channel2">
+          <float_array id="Front-lib-map-channel2-array" count="12">0.999501 0.0005 0 0.0005 0.0005 0 0.9995 0.999501 0 0.0005 0.9995 0</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-map-channel1-tangents">
+          <float_array id="Front-lib-map-channel1-tangents-array" count="3">1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-map-channel1-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-map-channel1-binormals">
+          <float_array id="Front-lib-map-channel1-binormals-array" count="3">0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-map-channel1-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-map-channel2-tangents">
+          <float_array id="Front-lib-map-channel2-tangents-array" count="3">1 0 0.000000</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-map-channel2-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Front-lib-map-channel2-binormals">
+          <float_array id="Front-lib-map-channel2-binormals-array" count="3">0.000000 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Front-lib-map-channel2-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Front-lib-vertices">
+          <input semantic="POSITION" source="#Front-lib-positions"/>
+        </vertices>
+        <triangles material="Front_Material" count="2">
+          <input semantic="VERTEX" source="#Front-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Front-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Front-lib-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#Front-lib-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXTANGENT" source="#Front-lib-map-channel1-tangents" offset="4" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Front-lib-map-channel1-binormals" offset="5" set="1"/>
+          <input semantic="TEXTANGENT" source="#Front-lib-map-channel2-tangents" offset="6" set="2"/>
+          <input semantic="TEXBINORMAL" source="#Front-lib-map-channel2-binormals" offset="7" set="2"/>
+          <p>0 0 0 0 0 0 0 0 2 1 2 2 0 0 0 0 3 2 3 3 0 0 0 0 3 2 3 3 0 0 0 0 1 3 1 1 0 0 0 0 0 0 0 0 0 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Back-lib" name="Back">
+      <mesh>
+        <source id="Back-lib-positions">
+          <float_array id="Back-lib-positions-array" count="12">-0.5 -1 -0.5 0.5 -1 -0.5 -0.5 -1 0.5 0.5 -1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-normals">
+          <float_array id="Back-lib-normals-array" count="12">0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-map-channel1">
+          <float_array id="Back-lib-map-channel1-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-map-channel2">
+          <float_array id="Back-lib-map-channel2-array" count="12">0.0005 0.0005 0 0.9995 0.0005 0 0.0005 0.999501 0 0.999501 0.9995 0</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-map-channel1-tangents">
+          <float_array id="Back-lib-map-channel1-tangents-array" count="3">-1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-map-channel1-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-map-channel1-binormals">
+          <float_array id="Back-lib-map-channel1-binormals-array" count="3">0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-map-channel1-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-map-channel2-tangents">
+          <float_array id="Back-lib-map-channel2-tangents-array" count="3">-1 0 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-map-channel2-tangents-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Back-lib-map-channel2-binormals">
+          <float_array id="Back-lib-map-channel2-binormals-array" count="3">0.000000 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Back-lib-map-channel2-binormals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Back-lib-vertices">
+          <input semantic="POSITION" source="#Back-lib-positions"/>
+        </vertices>
+        <triangles material="Back_Material" count="2">
+          <input semantic="VERTEX" source="#Back-lib-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Back-lib-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Back-lib-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#Back-lib-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXTANGENT" source="#Back-lib-map-channel1-tangents" offset="4" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Back-lib-map-channel1-binormals" offset="5" set="1"/>
+          <input semantic="TEXTANGENT" source="#Back-lib-map-channel2-tangents" offset="6" set="2"/>
+          <input semantic="TEXBINORMAL" source="#Back-lib-map-channel2-binormals" offset="7" set="2"/>
+          <p>0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 3 2 3 3 0 0 0 0 3 2 3 3 0 0 0 0 2 3 2 2 0 0 0 0 0 0 0 0 0 0 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="cube.max" name="cube_max">
+      <node id="Left" name="Left" type="NODE">
+        <matrix>1 0 0 0 0 0 1 -0.5 0 -1 0 -0.5 0 0 0 1</matrix>
+        <instance_geometry url="#Left-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Left_Material" target="#Left_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Right" name="Right" type="NODE">
+        <matrix>1 0 0 0 0 0 1 -0.5 0 -1 0 -0.5 0 0 0 1</matrix>
+        <instance_geometry url="#Right-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Right_Material" target="#Right_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Bottom" name="Bottom" type="NODE">
+        <matrix>1 0 0 0 0 0 1 -0.5 0 -1 0 -0.5 0 0 0 1</matrix>
+        <instance_geometry url="#Bottom-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Bottom_Material" target="#Bottom_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Top" name="Top" type="NODE">
+        <matrix>1 0 0 0 0 0 1 -0.5 0 -1 0 -0.5 0 0 0 1</matrix>
+        <instance_geometry url="#Top-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Top_Material" target="#Top_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Front" name="Front" type="NODE">
+        <matrix>1 0 0 0 0 0 1 -0.5 0 -1 0 -0.5 0 0 0 1</matrix>
+        <instance_geometry url="#Front-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Front_Material" target="#Front_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Back" name="Back" type="NODE">
+        <matrix>1 0 0 0 0 0 1 -0.5 0 -1 0 -0.5 0 0 0 1</matrix>
+        <instance_geometry url="#Back-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Back_Material" target="#Back_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>3.33333</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#cube.max"/>
+  </scene>
+</COLLADA>

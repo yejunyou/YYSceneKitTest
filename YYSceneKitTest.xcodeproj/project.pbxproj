@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7550579520196F7200086EC5 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550579420196F7100086EC5 /* ViewController7.swift */; };
+		754B5477201D702500369E5E /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B5476201D702500369E5E /* ViewController7.swift */; };
 		75F6FB78201818F90014035E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB77201818F90014035E /* AppDelegate.swift */; };
 		75F6FB7A201818F90014035E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F6FB79201818F90014035E /* art.scnassets */; };
 		75F6FB7C201818F90014035E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6FB7B201818F90014035E /* ViewController.swift */; };
@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7550579420196F7100086EC5 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		754B5476201D702500369E5E /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		75F6FB74201818F90014035E /* YYSceneKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYSceneKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F6FB77201818F90014035E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F6FB79201818F90014035E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				75F6FBB820187EDA0014035E /* ViewController4.swift */,
 				75F6FBBC201892A10014035E /* ViewController5.swift */,
 				75F6FBBE2018B9020014035E /* ViewController6.swift */,
-				7550579420196F7100086EC5 /* ViewController7.swift */,
+				754B5476201D702500369E5E /* ViewController7.swift */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
 				75F6FB82201818F90014035E /* LaunchScreen.storyboard */,
 				75F6FB7D201818F90014035E /* Main.storyboard */,
@@ -308,9 +308,9 @@
 				75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */,
 				75F6FBBD201892A10014035E /* ViewController5.swift in Sources */,
 				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
-				7550579520196F7200086EC5 /* ViewController7.swift in Sources */,
 				75F6FB7C201818F90014035E /* ViewController.swift in Sources */,
 				75F6FBB7201874BD0014035E /* ViewController3.swift in Sources */,
+				754B5477201D702500369E5E /* ViewController7.swift in Sources */,
 				75F6FB78201818F90014035E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

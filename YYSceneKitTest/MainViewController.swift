@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
-    let dataList = ["灰机✈️", "加载Dea-椅子", "3D文字", "光与影", "相机视角","动画群组","base geometry type","light的属性运用"]
+    let dataList = ["灰机✈️", "加载.DAE", "3D文字", "光与影", "相机视角","动画群组","base geometry type","light的属性运用"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
