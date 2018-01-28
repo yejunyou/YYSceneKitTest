@@ -12,11 +12,12 @@ import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
-    @IBOutlet var sceneView: ARSCNView!
+    var sceneView: ARSCNView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        sceneView = ARSCNView.init(frame: view.bounds)
         // Set the view's delegate
         sceneView.delegate = self
         
@@ -28,6 +29,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = scene
+        view.addSubview(sceneView)
     }
     
     override func viewWillAppear(_ animated: Bool) {

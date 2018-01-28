@@ -11,7 +11,7 @@ import SceneKit
 
 class ViewController3: UIViewController {
 
-    @IBOutlet weak var gameView: SCNView!
+    var gameView: SCNView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,9 +21,11 @@ class ViewController3: UIViewController {
     }
     
     private func setupSCNView(){
+        gameView = SCNView.init(frame: view.bounds)
         gameView.allowsCameraControl = true
         gameView.backgroundColor = UIColor.black
         gameView.scene = SCNScene()
+        view.addSubview(gameView)
     }
     
     private func addBoxNode() {

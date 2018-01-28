@@ -57,8 +57,23 @@ class MainViewController: UITableViewController {
             default:vcName = "ViewController"
         }
         
+        /*
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: vcName!)
+        vc.title = dataList[indexPath.row]
+        self.navigationController!.pushViewController(vc, animated: true)
+        */
+        
+        let nameSpace = Bundle.main.infoDictionary!["CFBundleExecutable"]
+        guard let ns = nameSpace as? String else{
+            return
+        }
+        let vcClass: AnyClass? = NSClassFromString(ns + "." + vcName!)
+        guard let myClassType = vcClass as? UIViewController.Type else{
+            return
+        }
+        
+        let vc = myClassType.init()
         vc.title = dataList[indexPath.row]
         self.navigationController!.pushViewController(vc, animated: true)
     }

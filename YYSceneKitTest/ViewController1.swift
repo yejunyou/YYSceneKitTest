@@ -11,7 +11,7 @@ import SceneKit
 
 class ViewController1: UIViewController {
 
-    @IBOutlet weak var myView: SCNView!
+    var myView: SCNView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,10 @@ class ViewController1: UIViewController {
         let scene = SCNScene(named: "art.scnassets/yizi2.DAE")!
         
         // Set the scene to the view
+        myView = SCNView.init(frame: view.bounds)
         myView.scene = scene
         myView.allowsCameraControl = true
         myView.backgroundColor = UIColor.black
+        view.addSubview(myView)
     }
 }

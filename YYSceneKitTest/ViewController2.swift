@@ -11,7 +11,7 @@ import SceneKit
 
 class ViewController2: UIViewController {
 
-    @IBOutlet weak var gameView: SCNView!
+    var gameView: SCNView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +26,7 @@ class ViewController2: UIViewController {
         scnview.allowsCameraControl = true
         view.addSubview(scnview)
         gameView = scnview
+        view.addSubview(gameView)
     }
     
     // 关于数字的单位，看这里 http://developer.huawei.com/ict/forum/thread-23511-1-1.html
