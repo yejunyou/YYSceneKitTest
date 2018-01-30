@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		754B5477201D702500369E5E /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B5476201D702500369E5E /* ViewController7.swift */; };
 		754B5479201D8D1200369E5E /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B5478201D8D1200369E5E /* ViewController8.swift */; };
+		754B548720205CFB00369E5E /* Bokeh.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B548520205CFB00369E5E /* Bokeh.scnp */; };
+		754B548820205CFB00369E5E /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B548620205CFB00369E5E /* bokeh.png */; };
+		754B548B20205D1A00369E5E /* Confetti.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B548920205D1A00369E5E /* Confetti.scnp */; };
+		754B548C20205D1A00369E5E /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B548A20205D1A00369E5E /* confetti.png */; };
+		754B548E20205D2400369E5E /* Rain.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B548D20205D2400369E5E /* Rain.scnp */; };
+		754B549020205D4000369E5E /* Reactor.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B548F20205D4000369E5E /* Reactor.scnp */; };
+		754B549320205D4E00369E5E /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B549120205D4E00369E5E /* Smoke.scnp */; };
+		754B549420205D4E00369E5E /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B549220205D4E00369E5E /* smoke.png */; };
+		754B549720205D6300369E5E /* Stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B549520205D6300369E5E /* Stars.scnp */; };
+		754B549820205D6300369E5E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B549620205D6300369E5E /* star.png */; };
 		75E20096201E00D50058FDE0 /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E20095201E00D50058FDE0 /* ViewController9.swift */; };
 		75E20099201E01730058FDE0 /* Fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 75E20097201E01730058FDE0 /* Fire.scnp */; };
 		75E2009A201E01730058FDE0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E20098201E01730058FDE0 /* spark.png */; };
@@ -50,6 +60,16 @@
 /* Begin PBXFileReference section */
 		754B5476201D702500369E5E /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		754B5478201D8D1200369E5E /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		754B548520205CFB00369E5E /* Bokeh.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Bokeh.scnp; sourceTree = "<group>"; };
+		754B548620205CFB00369E5E /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		754B548920205D1A00369E5E /* Confetti.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Confetti.scnp; sourceTree = "<group>"; };
+		754B548A20205D1A00369E5E /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		754B548D20205D2400369E5E /* Rain.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Rain.scnp; sourceTree = "<group>"; };
+		754B548F20205D4000369E5E /* Reactor.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Reactor.scnp; sourceTree = "<group>"; };
+		754B549120205D4E00369E5E /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
+		754B549220205D4E00369E5E /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		754B549520205D6300369E5E /* Stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Stars.scnp; sourceTree = "<group>"; };
+		754B549620205D6300369E5E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		75E20095201E00D50058FDE0 /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
 		75E20097201E01730058FDE0 /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
 		75E20098201E01730058FDE0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
@@ -141,6 +161,16 @@
 				754B5476201D702500369E5E /* ViewController7.swift */,
 				754B5478201D8D1200369E5E /* ViewController8.swift */,
 				75E20095201E00D50058FDE0 /* ViewController9.swift */,
+				754B548520205CFB00369E5E /* Bokeh.scnp */,
+				754B548620205CFB00369E5E /* bokeh.png */,
+				754B548920205D1A00369E5E /* Confetti.scnp */,
+				754B548A20205D1A00369E5E /* confetti.png */,
+				754B548F20205D4000369E5E /* Reactor.scnp */,
+				754B549120205D4E00369E5E /* Smoke.scnp */,
+				754B549220205D4E00369E5E /* smoke.png */,
+				754B549520205D6300369E5E /* Stars.scnp */,
+				754B549620205D6300369E5E /* star.png */,
+				754B548D20205D2400369E5E /* Rain.scnp */,
 				75E20097201E01730058FDE0 /* Fire.scnp */,
 				75E20098201E01730058FDE0 /* spark.png */,
 				75F6FB80201818F90014035E /* Assets.xcassets */,
@@ -286,10 +316,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F6FB7A201818F90014035E /* art.scnassets in Resources */,
+				754B549320205D4E00369E5E /* Smoke.scnp in Resources */,
 				75E20099201E01730058FDE0 /* Fire.scnp in Resources */,
+				754B548820205CFB00369E5E /* bokeh.png in Resources */,
+				754B548B20205D1A00369E5E /* Confetti.scnp in Resources */,
 				75F6FBB52018628F0014035E /* yizi.DAE in Resources */,
+				754B548E20205D2400369E5E /* Rain.scnp in Resources */,
+				754B549420205D4E00369E5E /* smoke.png in Resources */,
 				75E2009A201E01730058FDE0 /* spark.png in Resources */,
+				754B549820205D6300369E5E /* star.png in Resources */,
+				754B549720205D6300369E5E /* Stars.scnp in Resources */,
+				754B549020205D4000369E5E /* Reactor.scnp in Resources */,
 				75F6FB84201818F90014035E /* LaunchScreen.storyboard in Resources */,
+				754B548720205CFB00369E5E /* Bokeh.scnp in Resources */,
+				754B548C20205D1A00369E5E /* confetti.png in Resources */,
 				75F6FB81201818F90014035E /* Assets.xcassets in Resources */,
 				75F6FB7F201818F90014035E /* Main.storyboard in Resources */,
 			);
