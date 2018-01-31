@@ -10,16 +10,17 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
-    let dataList = ["灰机✈️",
-                    "加载.DAE",
-                    "3D文字",
-                    "光与影",
-                    "相机视角",
-                    "动画群组",
-                    "base geometry type",
-                    "light的属性运用",
-                    "物理身体",
-                    "粒子系统"
+    let dataList = ["0.ARWorldTrackingConfiguration+虚拟物体展示",
+                    "1.加载本地.DAE展示虚拟物体",
+                    "2.SCNText展示3D文字",
+                    "3.SCNLight光与影",
+                    "4.SCNBox展示六面体盒子",
+                    "5.SCNAction动画群组",
+                    "6.SCNGeometry展示多种形状",
+                    "7.SCNLight渲染地球场景光",
+                    "8.SCNPhysicsBody模拟物体作用力",
+                    "9.SCNParticleSystem粒子系统模拟火、雨、星、雪...",
+                    "10.SCNPhysicsHingeJoint节点"
                     ]
     
     override func viewDidLoad() {

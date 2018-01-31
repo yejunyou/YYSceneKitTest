@@ -59,13 +59,13 @@ class ViewController7: UIViewController {
 //        myView.scene?.rootNode.addChildNode(lightNode)
         
         // 添加环境光:omni 有固定位置、360度散射、会衰减
-//        let lightNode = SCNNode()
-//        lightNode.position = SCNVector3Make(0, 100, 100)
-//        lightNode.light = SCNLight()
-//        lightNode.rotation = SCNVector4Make(1, 0, 0, -.pi/2)
-//        lightNode.light?.color = UIColor.blue
-//        lightNode.light?.type = .omni
-//        myView.scene?.rootNode.addChildNode(lightNode)
+        let lightNode = SCNNode()
+        lightNode.position = SCNVector3Make(100, 0, 100)
+        lightNode.light = SCNLight()
+        lightNode.rotation = SCNVector4Make(1, 0, 0, -.pi/2)
+        lightNode.light?.color = UIColor.white
+        lightNode.light?.type = .omni
+        myView.scene?.rootNode.addChildNode(lightNode)
         
         // 添加环境光:ambient 无穷远、没方向、360度照射、均匀散射到物体上
         // 效果：通透的亮
@@ -93,12 +93,12 @@ class ViewController7: UIViewController {
 //        myView.scene?.rootNode.addChildNode(lightNode)
         
         // 添加环境光:probe 场景中某个点周围的环境样本，用于基于环境的照明
-        let lightNode = SCNNode()
-        lightNode.position = SCNVector3Make(0, 0, 100)
-        lightNode.light = SCNLight()
-        lightNode.light?.color = UIColor.white
-        lightNode.light?.type = .probe
-        myView.scene?.rootNode.addChildNode(lightNode)
+//        let lightNode = SCNNode()
+//        lightNode.position = SCNVector3Make(0, 0, 100)
+//        lightNode.light = SCNLight()
+//        lightNode.light?.color = UIColor.white
+//        lightNode.light?.type = .probe
+//        myView.scene?.rootNode.addChildNode(lightNode)
     }
     
     private func addBoxAndSphere(){
@@ -107,6 +107,8 @@ class ViewController7: UIViewController {
         sphere.firstMaterial?.diffuse.contents = "earth-diffuse.jpg"//UIImage.init(named: "earth-diffuse.jpg")
         sphere.firstMaterial?.ambient.contents = "earth-bump.png"//UIImage.init(named: "earth-bump.png")
         let sphereNode = SCNNode.init(geometry: sphere)
+        let rotation = SCNAction.rotate(by: 5, around: SCNVector3Make(0, 1, 0), duration: 8)
+        sphereNode.runAction(SCNAction.repeatForever(rotation))
         myView.scene?.rootNode.addChildNode(sphereNode)
     }
 }

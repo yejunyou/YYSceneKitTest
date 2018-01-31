@@ -19,6 +19,7 @@
 		754B549420205D4E00369E5E /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B549220205D4E00369E5E /* smoke.png */; };
 		754B549720205D6300369E5E /* Stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 754B549520205D6300369E5E /* Stars.scnp */; };
 		754B549820205D6300369E5E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B549620205D6300369E5E /* star.png */; };
+		754B549D20206D0C00369E5E /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B549C20206D0C00369E5E /* ViewController10.swift */; };
 		75E20096201E00D50058FDE0 /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E20095201E00D50058FDE0 /* ViewController9.swift */; };
 		75E20099201E01730058FDE0 /* Fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 75E20097201E01730058FDE0 /* Fire.scnp */; };
 		75E2009A201E01730058FDE0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E20098201E01730058FDE0 /* spark.png */; };
@@ -70,6 +71,7 @@
 		754B549220205D4E00369E5E /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
 		754B549520205D6300369E5E /* Stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Stars.scnp; sourceTree = "<group>"; };
 		754B549620205D6300369E5E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		754B549C20206D0C00369E5E /* ViewController10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
 		75E20095201E00D50058FDE0 /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
 		75E20097201E01730058FDE0 /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
 		75E20098201E01730058FDE0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				754B5476201D702500369E5E /* ViewController7.swift */,
 				754B5478201D8D1200369E5E /* ViewController8.swift */,
 				75E20095201E00D50058FDE0 /* ViewController9.swift */,
+				754B549C20206D0C00369E5E /* ViewController10.swift */,
 				754B548520205CFB00369E5E /* Bokeh.scnp */,
 				754B548620205CFB00369E5E /* bokeh.png */,
 				754B548920205D1A00369E5E /* Confetti.scnp */,
@@ -360,6 +363,7 @@
 				75F6FBAC20181E2C0014035E /* ViewController1.swift in Sources */,
 				75F6FBBF2018B9020014035E /* ViewController6.swift in Sources */,
 				75F6FBB920187EDA0014035E /* ViewController4.swift in Sources */,
+				754B549D20206D0C00369E5E /* ViewController10.swift in Sources */,
 				75F6FBBD201892A10014035E /* ViewController5.swift in Sources */,
 				75F6FBAA20181AB60014035E /* MainViewController.swift in Sources */,
 				75F6FB7C201818F90014035E /* ViewController.swift in Sources */,
